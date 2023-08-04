@@ -18,6 +18,7 @@ namespace RectangleByClick
         {
             InitializeComponent();
             initCanvas();
+            MessageBox.Show("Для создания квадрата двойной клик мыши\nдля удаления двойной клик правой клавишей мыши\nпо нужному квадрату");
         }
         private void initCanvas()
         {
